@@ -1,0 +1,52 @@
+{
+  "builds": {
+    "DISCO_L475VG_IOT01A-GCC_ARM": {
+      "platform": "DISCO_L475VG_IOT01A",
+      "toolchain": "",
+      "base_path": "",
+      "baud_rate": 115200,
+      "binary_type": "bootable",
+      "tests": {
+        "logging.log_list": {
+          "binaries": [
+            {
+              "path": "/images/disco_l475_iot1/logging.log_list/zephyr.bin"
+            }
+          ]
+        }
+      }
+    },
+    "NUCLEO_L552ZE_Q-GCC_ARM": {
+      "platform": "NUCLEO_L552ZE_Q",
+      "toolchain": "",
+      "base_path": "",
+      "baud_rate": 115200,
+      "binary_type": "bootable",
+      "tests": {
+        "logging.log_list": {
+          "binaries": [
+            {
+              "path": "/images/nucleo_l552ze_q/logging.log_list/zephyr.bin"
+            }
+          ]
+        }
+      }
+    },
+    "FRDM-K64F-GCC_ARM": {
+      "platform": "K64F",
+      "toolchain": "",
+      "base_path": "",
+      "baud_rate": 115200,
+      "binary_type": "bootable",
+      "tests": {
+        "logging.log_list": {
+          "binaries": [
+            {
+              "path": "/images/frdm_k64f/logging.log_list/zephyr.bin"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
